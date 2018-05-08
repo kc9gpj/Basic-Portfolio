@@ -54,6 +54,8 @@ button {
     font-size: 35px;
     font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font: bold;
+    
+    
 
 }
 
@@ -65,12 +67,15 @@ button {
     font-size: 25px;
     padding: 50px;
     font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: left;
     
 }
+
 /* reszing of about me image */
 #profile_img {
-    margin-right: 50px;
-    margin-bottom: 50px;
+    margin-right: 45px;
+    margin-bottom: 45px;
+    margin-top: 25px;
     float: left;
 
     
