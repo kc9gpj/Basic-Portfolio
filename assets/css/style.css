@@ -30,7 +30,7 @@ body {
     float: left;
     text-align: left;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    position: fixed;
+    position: absolute;
     top: 5px;
     background:  #2d73b6;
     padding: 10px 10px 10px 10px;
