@@ -15,28 +15,32 @@ body {
     #secondary {width: 100%; margin: 0; }
 }
 
-/* menu name on top left */
-#title {
-    text-align: left;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    position: absolute;
-    top: -5px;
-    background:  #2d73b6;
-    padding: 10px 10px 10px 10px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 30px;
-    color: #ffffff;
-}
-
 /* top navigation menu */
 #Topnav {
     text-align: right;
     overflow: hidden;
     background-color: #ffffff;
-    padding: 30px;
+    padding: 15px 30px 15px 30px;
     width: 960px;
-   
+    border-radius: 5px;
+}
 
+/* menu name on top left */
+#title {
+    float: left;
+    text-align: left;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: fixed;
+    top: 5px;
+    background:  #2d73b6;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 0px;
+    
+    
 }
 /* menu navigation buttons */
 button {
@@ -46,6 +50,14 @@ button {
     padding: 5px 10px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 20px;
+    
+  }
+
+  button:hover {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    color: darkgray;
+
   }
 
 /* page titles */
@@ -54,20 +66,21 @@ button {
     font-size: 35px;
     font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font: bold;
+    text-shadow: 5px 5px 5px 5px gray;
     
     
 
 }
-
 /* about me font and background */
 #aboutme {
     background: #ffffff;
     width: 960px;
     height: 400px;
-    font-size: 25px;
-    padding: 50px;
+    font-size: 20px;
+    padding: 30px;
     font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-align: left;
+    border-radius: 5px;
     
 }
 
@@ -87,8 +100,9 @@ button {
     width: 960px;
     height: 500px;
     font-size: 20px;
-    padding: 50px;
+    padding: 30px;
     font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-radius: 5px;
 
    
 
@@ -100,8 +114,9 @@ button {
     width: 960px;
     height: 550px;
     font-size: 20px;
-    padding: 50px;
+    padding: 30px;
     font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-radius: 5px;
 
 }
 /* portfolio list style */
@@ -174,3 +189,7 @@ input[type=submit]:hover {
     background-color: darkgray;
     padding: 20px;
 }
+
+p {  
+    text-indent: 2.0em;  
+  }
